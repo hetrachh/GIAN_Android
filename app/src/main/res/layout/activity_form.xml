@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="56dp"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp">
+
+    <ImageView android:src="@drawable/gianlogo"
+            android:layout_width="wrap_content"
+            android:layout_height="72dp"
+            android:layout_marginBottom="24dp"
+            android:layout_gravity="center_horizontal" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="EMail Id"
+            android:textSize="35px"
+            />
+        <EditText
+            android:id="@+id/txt_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Email"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter Name"
+            android:textSize="35px"
+            />
+        <EditText
+            android:id="@+id/txt_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Name"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Contact Number"
+            android:textSize="35px"
+            />
+        <EditText
+            android:id="@+id/txt_phno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Contact Number"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Occupation"
+            android:textSize="45px" />
+        <RadioGroup
+            android:id="@+id/rad"
+            android:layout_width="450px"
+            android:layout_height="350px">
+            <RadioButton
+                android:id="@+id/schl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="School_Student"/>
+            <RadioButton
+                android:id="@+id/poly"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="IT/Polytechnic"/>
+            <RadioButton
+                android:id="@+id/entr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Entrepreneur"/>
+
+            <RadioButton
+                android:id="@+id/invest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Investor"/>
+        </RadioGroup>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit your idea/innovation or prototypes"
+            android:textSize="35px"
+            />
+        <EditText
+            android:id="@+id/ideas"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="your Idea"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Please submit More information, if applicable"/>
+
+        <!--<Button
+            android:id="@+id/select_file"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select File"/>
+        <TextView
+            android:id="@+id/txt_uri"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="URI"/>-->
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit"/>
+    </LinearLayout>
+</ScrollView>
